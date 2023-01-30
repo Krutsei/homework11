@@ -1,0 +1,33 @@
+.control{
+    position: relative;
+    left: 200px;
+}
+
+.box{
+    height: 150px;
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+font-size: 64px;
+}
+
+.box:nth-child(1) {
+    background-color: red;
+
+}
+
+.box:nth-child(2){
+    position: absolute;
+    left: 75px;
+top: 75px;
+background-color: blue;
+z-index: 2;
+}
+
+.box:nth-child(3){
+    position: relative;
+    left: 150px;
+    background-color: green;
+}
